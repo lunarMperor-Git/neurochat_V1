@@ -3,6 +3,9 @@ title: NeuroChat (Docker)
 author: neurochat
 version: 0.1.0
 description: EEG-adaptive tutor. Gets engagement from a host-side EEG service, chats with a local Ollama model.
+
+   docker compose up -d
+   docker ps
 """
 import json
 import time
